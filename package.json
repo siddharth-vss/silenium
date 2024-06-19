@@ -1,0 +1,11 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^126.0.2",
+    "dotenv": "^16.4.5",
+    "selenium-webdriver": "^4.21.0"
+  }
+}
