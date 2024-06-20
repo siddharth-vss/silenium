@@ -32,7 +32,8 @@ async function startBot() {
 	    		page.scrollToBottom();	
 	       		await sleep(3)
 		} catch(e) {
-		 	console.error(e)
+		 	console.error(e);
+			alert(e);
 		}
 	}
         await new Promise((resolve) => setTimeout(resolve, 5000))
